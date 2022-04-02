@@ -10,3 +10,4 @@ app.use(cors())
 const router=require('./routes/router.js');
 app.use('/api', router);
 app.listen(PORT, console.log('run server '+ PORT))
+console.log(123);
